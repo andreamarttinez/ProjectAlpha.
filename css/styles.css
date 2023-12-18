@@ -3,3 +3,173 @@ body {
     margin: 0; 
     overflow-x: hidden;
 }
+
+/* General styles */
+
+/* Background colors*/
+.bg--pink {
+   background-color: #efd2d0;
+}
+
+.bg--black {
+    background-color: black;
+}
+
+.bg--red{
+    background-color: red;
+}
+
+
+/* Color texts */
+.color--red {
+    color: red;
+}
+
+.color--white {
+    color: white;
+}
+
+
+/* Links */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Lists */
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* p */
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* Button */
+button {
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer; 
+    border: none; 
+}
+
+
+/* Images */
+img {
+    max-width: 100%;
+}
+
+/* End of General styles */
+
+
+/* Start of Header styles */
+.topbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 124px 16px 124px;
+    margin-top: 0px;
+}
+
+.topbar__logo {
+    z-index: 2;
+}
+.topbar__logo h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.topbar__logo span {
+    margin-left: -6px;
+}
+
+.header__circle { 
+    position: absolute;
+    height: 146px;
+    width: 146px;
+    border-radius: 50%; 
+    overflow: hidden;
+    inset: -58px auto auto calc(50% - 314px);
+    z-index: 1;
+}
+
+.topbar__nav-list {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.topbar__nav-list:last-child {
+    margin-right: 0px;
+}
+
+.topbar__button {
+    width: 127px;
+    height: 48px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 124px 0px 124px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 64px;
+    margin-bottom: 80px;
+    max-width: 457px;
+}
+
+.welcome__title { 
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.welcome__subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px 0px 16px 0px; 
+}
+
+.welcome__description {
+    margin-bottom: 48px;
+}
+
+.welcome__buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome__button {
+    width: 177px;
+    height: 48px;
+    margin-right: 20px;
+}
+
+.welcome__button:last-child {
+    margin-right: 0px;
+}
+
+.welcome__button--white { 
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* End of Header Styles */
